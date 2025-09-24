@@ -124,7 +124,7 @@ export default function Portfolio() {
             {filteredProjects.map((proj, i) => (
               <div
                 key={i}
-                className="col-lg-4 col-md-6 portfolio-item"
+                className="col-lg-4 col-md-6 "
               >
                 <div className="portfolio-card">
                   <div className="portfolio-image">
@@ -315,7 +315,7 @@ export default function Portfolio() {
             }
             
             .portfolio-content {
-              padding: 20px;
+              padding: 10px;
             }
             
             .portfolio-title {
