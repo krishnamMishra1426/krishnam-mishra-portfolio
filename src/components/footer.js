@@ -49,16 +49,19 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* Scroll to Top */}
-      <Link
-        href="#"
-        id="scroll-top"
-        className={`scroll-top d-flex align-items-center justify-content-center ${
-          scrolled ? "active" : ""
-        }`}
-      >
-        ⬆
-      </Link>
+ <Link
+  href="https://wa.me/9522403723?text=Hello%20I%20want%20to%20know%20more"
+  className="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp"
+    className="whatsapp-icon"
+  />
+</Link>
+
 
       {/* Preloader (If needed, uncomment) */}
       {/* <div id="preloader"></div> */}
