@@ -68,7 +68,7 @@ const resumeData = {
       name: "ChatWithBooks | Conversational Book Assistant App",
       description:
         "ChatWithBooks is a React Native mobile application that allows users to interact and chat with books. Using AI-powered conversational interfaces, users can ask questions, explore summaries, and engage with the content of books in an intuitive chat format. The app provides an immersive and personalized reading experience, combining technology with literature to make knowledge discovery simple and engaging.",
-         link:"https://play.google.com/store/apps/details?id=com.chatwithbooks&hl=en_IN"
+      link: "https://play.google.com/store/apps/details?id=com.chatwithbooks&hl=en_IN"
     },
     {
       name: "Digital Growth & Marketing Consultant Optiminder | AI-Driven Strategies",
@@ -76,7 +76,7 @@ const resumeData = {
         "I specialize in helping businesses scale smarter and faster by combining data-driven insights, creative problem-solving, and commercial strategy. My expertise includes optimizing digital marketing performance, improving conversion rates, and driving measurable growth through AI-enhanced marketing solutions. I focus on simplifying complex challenges, removing operational barriers, and delivering results that matter for sustainable business success.",
       link: "https://app.optiminder.com/",
     },
-     {
+    {
       name: "Ayurveda Home Health | E-commerce Website",
       description:
         "An online Ayurvedic products e-commerce store built using SvelteKit for fast and scalable front-end experience.",
@@ -92,43 +92,56 @@ const resumeData = {
       name: "Fusion Finance",
       description:
         "Collaborated on the design and deployment of the Fusion Finance website, a financial services platform offering mortgage protection, life insurance, income protection, serious illness cover, lump sum investment, and retirement planning. The website emphasizes user-friendly navigation and responsive design to enhance client engagement.",
-        link:"fusion-finance.com"
+      link: "fusion-finance.com"
     },
     {
       name: "NewThinking | AI Solutions",
       description:
         "Generative Chatbots, Conversational AI, Phone Assistants, Audio Visualizers. Built with React.js & Nest.js.",
-        link:"https://newthinking.ai/"
+      link: "https://newthinking.ai/"
     },
     {
       name: "Mirar AI | Chatbot & Admin Panel",
       description:
         "Mirar AI is an advanced conversational AI application tailored to significantly enhance user engagement and interaction for influencers and content creators. Leveraging cutting-edge AI technologies, Mirar AI provides personalized and dynamic conversational experiences, allowing influencers to connect with their audience in a more meaningful and interactive manner.",
-         link:"https://www.mirar.ai/"
-    }, 
-    {
-      name: "TalaThrive | Consultant Services",
-      description:
-        "A therapist-consultant platform with paid video call sessions. Built using React.js, Nest.js, MongoDB.",
-         link:"https://www.talathrive.com/"
+      link: "https://www.mirar.ai/"
     },
-    
-  {
+    // {
+    //   name: "TalaThrive | Consultant Services",
+    //   description:
+    //     "A therapist-consultant platform with paid video call sessions. Built using React.js, Nest.js, MongoDB.",
+    //      link:"https://www.talathrive.com/"
+    // },
+
+    {
       name: "Hack-a-thons Games",
       description:
         "A gamified hackathon quiz platform where teams log in, get random questions, and must give correct prompts/answers to progress. Built using Next.js,  deployed on Vercel.",
       link: "https://hack-a-thons-game.vercel.app/"
     },
+    {
+      name: "In10tional | Meditation & Mindfulness App",
+      description:
+        "A cross-platform meditation app built for iOS and Android, offering curated meditation music across multiple categories. Features include personalized playlists, morning push notification reminders, and a calming user interface for daily mindfulness practice.",
+      link: "https://yourmeditationapp.com/",
+    },
+    {
+      name: "Dopex | Acumatica Page",
+      description:
+        "A responsive landing page built for Dopex, showcasing Acumatica solutions with a modern design and optimized user experience. Developed using Next.js and Tailwind CSS.",
+      link: "https://www.dopex.co",
 
-    
+    },
+
+
   ],
 };
 
 export default function Resume() {
 
-      useEffect(() => {
-        AOS.init({ duration: 1000 });
-      }, []);
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   return (
     <main className="main">
@@ -197,20 +210,20 @@ export default function Resume() {
               ))}
 
               <h3 className="resume-title">Projects</h3>
-             
-{resumeData.projects.map((proj, i) => (
-  <div className="resume-item" key={i}>
-    <h4>{proj.name}  {proj.link && (
-      <span>
-        <a href={proj.link} target="_blank" style={{fontSize:"12px"}} rel="noopener noreferrer">
-          Visit
-        </a>
-      </span>
-    )}</h4>
-    <p>{proj.description}</p>
-   
-  </div>
-))}
+
+              {resumeData.projects.map((proj, i) => (
+                <div className="resume-item" key={i}>
+                  <h4>{proj.name}  {proj.link && (
+                    <span>
+                      <a href={proj.link} target="_blank" style={{ fontSize: "12px" }} rel="noopener noreferrer">
+                        Visit
+                      </a>
+                    </span>
+                  )}</h4>
+                  <p>{proj.description}</p>
+
+                </div>
+              ))}
 
             </div>
           </div>

@@ -54,21 +54,30 @@ const projects = [
     image: "/assets/img/masonry-portfolio/newthinking.png",
   },
   {
+  name: "Dopex | Acumatica Page",
+  description:
+    "A responsive landing page built for Dopex, showcasing Acumatica solutions with a modern design and optimized user experience. Developed using Next.js and Tailwind CSS.",
+  link: "https://www.dopex.co",
+  category: "Web",
+  image: "/assets/img/masonry-portfolio/Dopex-Acumatica.png", 
+},
+
+  {
     name: "Mirar AI | Chatbot & Admin Panel",
     description:
       "Mirar AI is an advanced conversational AI application tailored to significantly enhance user engagement.",
     link: "https://www.mirar.ai/",
     category: "Web",
-    image: "/assets/img/masonry-portfolio/Mirar-Ai.png",
+    image: "/assets/img/masonry-portfolio/Mirar-AI.png",
   },
-  {
-    name: "TalaThrive | Consultant Services",
-    description:
-      "A therapist-consultant platform with paid video call sessions. Built using React.js",
-    link: "https://www.talathrive.com/",
-    category: "Web",
-    image: "/assets/img/masonry-portfolio/Tala_Thrive.png",
-  },
+  // {
+  //   name: "TalaThrive | Consultant Services",
+  //   description:
+  //     "A therapist-consultant platform with paid video call sessions. Built using React.js",
+  //   link: "https://www.talathrive.com/",
+  //   category: "Web",
+  //   image: "/assets/img/masonry-portfolio/Tala_Thrive.png",
+  // },
     {
     name: "Hack-a-thons Games | AI Solutions",
     description:
@@ -77,6 +86,16 @@ const projects = [
     category: "Web",
     image: "/assets/img/masonry-portfolio/Hack-a-thon-game.png",
   },
+  {
+  name: "In10tional | Meditation & Mindfulness App",
+  description:
+    "A cross-platform meditation app built for iOS and Android, offering curated meditation music across multiple categories. Features include personalized playlists, morning push notification reminders, and a calming user interface for daily mindfulness practice.",
+  link: "https://yourmeditationapp.com/", 
+  category: "App",
+  image: "/assets/img/masonry-portfolio/Hack-a-thon-game.png", 
+},
+
+  
 ];
 
 export default function Portfolio() {
