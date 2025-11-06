@@ -123,7 +123,7 @@ const resumeData = {
       name: "In10tional | Meditation & Mindfulness App",
       description:
         "A cross-platform meditation app built for iOS and Android, offering curated meditation music across multiple categories. Features include personalized playlists, morning push notification reminders, and a calming user interface for daily mindfulness practice.",
-      link: "https://yourmeditationapp.com/",
+      link: "https://apps.apple.com/in/app/the-in10tional-life/id6747878614s",
     },
     {
       name: "Dopex | Acumatica Page",
