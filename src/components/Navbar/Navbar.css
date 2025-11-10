@@ -1,0 +1,12 @@
+ .logo-text{
+    color: #24CC6A;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+ }
+
+ @media (max-width: 576px) {
+  .logo-text-sirname {
+    display: none;
+  }
+}
